@@ -1,0 +1,30 @@
+body {
+    background: gray;
+}
+
+.chat,
+.chat-form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.chat-form__button {
+    margin-top: 15px;
+}
+
+.chat-messages {
+    width: 90%;
+    height: 300px;
+    background: white;
+}
+
+.chat-form-input-wrapper,
+.chat-form-input-wrapper textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
